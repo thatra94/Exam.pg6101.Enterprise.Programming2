@@ -1,6 +1,6 @@
 package com.exam.pg6100.social.media.sevice.dao
 
-import com.exam.pg6100.social.media.sevice.dto.UserDto
+import com.exam.pg6100.social.media.sevice.entities.UserEntity
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
@@ -9,9 +9,14 @@ import java.time.ZonedDateTime
 import javax.persistence.EntityManager
 
 @Repository
-interface UserRepository : CrudRepository<UserDto, Long>, UserRepositoryCustom {
+interface UserRepository : CrudRepository<UserEntity, Long>, UserRepositoryCustom {
 
-    fun findAllByName(name: String): Iterable<UserDto>
+    fun findAllByName(name: String): Iterable<UserEntity>
+    fun findAllBySurname(surname: String): Iterable<UserEntity>
+
+    fun findAllByNameAndSurname(name: String, surname: String): Iterable<UserEntity>
+
+
 }
 
 @Transactional
@@ -19,7 +24,7 @@ interface UserRepositoryCustom {
 
     fun createUser(name: String, surname: String, email: String): Long
 
-    fun updateUser(userId: Long, name: String, surname: String, email: String): Boolean
+    fun updateEmail(userId: Long, email: String): Boolean
 
     fun update(userId: Long,
                name: String,
@@ -49,14 +54,14 @@ class UserRepositoryImpl : UserRepositoryCustom {
     private lateinit var em: EntityManager
 
     override fun createUser(name: String, surname: String, email: String): Long {
-        val entity = UserDto(name, surname, email, ZonedDateTime.now())
+        val entity = UserEntity(name, surname, email, ZonedDateTime.now())
         em.persist(entity)
         return entity.id!!
     }
 
-    override fun updateUser(userId: Long, name: String, surname: String, email: String): Boolean {
-        val user = em.find(UserDto::class.java, userId) ?: return false
-        user.name = name
+    override fun updateEmail(userId: Long, email: String): Boolean {
+        val user = em.find(UserEntity::class.java, userId) ?: return false
+        user.email = email
         return true
     }
 
@@ -65,7 +70,7 @@ class UserRepositoryImpl : UserRepositoryCustom {
                         surname: String,
                         email: String,
                         creationTime: ZonedDateTime): Boolean {
-        val user = em.find(UserDto::class.java, userId) ?: return false
+        val user = em.find(UserEntity::class.java, userId) ?: return false
         user.name = name
         user.surname = surname
         user.email = email
