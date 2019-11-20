@@ -9,11 +9,6 @@
     <name>parent-project</name>
 
     <modules>
-        <!--
-            Note: gateway-frontend is not here in this list, as it
-            is not a Maven project... it is just a folder with static
-            assets that are not compiled.
-        -->
         <module>social-media-service</module>
 
     </modules>
