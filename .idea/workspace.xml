@@ -2,12 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c72bb887-2e60-41c1-b59f-e52f827a1c68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/api/UserController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dao/userRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dto/userDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dao/UserRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dto/UserDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/entities/UserEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/db/migration/V1__initial.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/db/migration/V2__data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/api/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/api/UserController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dao/userRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dto/UserConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dto/UserConverter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dto/userDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/entities/UserEntity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/test/kotlin/com/exam/pg6100/social/media/sevice/ApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/test/kotlin/com/exam/pg6101/social/media/service/SocialMediaServiceTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/social-media-service/target/" />
+    <ignored path="$PROJECT_DIR$/service.discovery/target/" />
+    <ignored path="$PROJECT_DIR$/social.media.sevice/target/" />
+    <ignored path="$PROJECT_DIR$/social.media.service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +62,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/ServiceDiscovery.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service.discovery/mvnw">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social.media.service/social.media.service.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="34">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -48,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="187">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -95,11 +152,15 @@
         <option value="$PROJECT_DIR$/social-media-service/src/main/resources/db/migration/V1__ddl.sql" />
         <option value="$PROJECT_DIR$/social-media-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/social-media-service/src/test/kotlin/com/exam/pg6100/socialmediaservice/SocialMediaServiceApplicationTests.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/social-media-service/src/main/kotlin/com/exam/pg6100/socialmediaservice/dto/UserDto.kt" />
         <option value="$PROJECT_DIR$/social-media-service/pom.xml" />
         <option value="$PROJECT_DIR$/social-media-service/src/main/kotlin/com/exam/pg6100/socialmediaservice/SocialMediaServiceApplication.kt" />
         <option value="$PROJECT_DIR$/social-media-service/src/main/kotlin/com/exam/pg6100/socialmediaservice/dao/UserRepository.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6100/social/media/service/SocialMediaService.kt" />
+        <option value="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/Application.kt" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/ServiceDiscovery.kt" />
       </list>
     </option>
   </component>
@@ -122,24 +183,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Exam.pg6100.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam.pg6100.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Exam.pg6100.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam.pg6100.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
-              <item name="social.media.sevice" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="service.discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="social.media.service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,7 +244,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SocialMediaServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceDiscovery">
+    <configuration name="ServiceDiscovery" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service.discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.pgr6101.service.discovery.service.discovery.ServiceDiscovery" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialMediaService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="social.media.service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.pg6101.social.media.service.SocialMediaService" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocialMediaServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="social-media-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="exam.pg6100.socialmediaservice.SocialMediaServiceApplication" />
@@ -193,6 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceDiscovery" />
+      <item itemvalue="Spring Boot.SocialMediaService" />
+      <item itemvalue="Spring Boot.SocialMediaServiceApplication" />
+      <item itemvalue="Spring Boot.SocialMediaServiceApplication (1)" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -209,17 +297,18 @@
       <workItem from="1574177204743" duration="30133000" />
       <workItem from="1574256801986" duration="84000" />
       <workItem from="1574270583096" duration="205000" />
+      <workItem from="1574347009897" duration="1767000" />
+      <workItem from="1574349357653" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32645000" />
+    <option name="totallyTimeSpent" value="35024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25979382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,11 +400,24 @@
     <entry file="file://$PROJECT_DIR$/social-media-service/src/main/kotlin/com/exam/pg6100/socialmediaservice/dao/UserRepository.kt" />
     <entry file="file://$PROJECT_DIR$/social-media-service/pom.xml" />
     <entry file="file://$PROJECT_DIR$/social-media-service/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.discovery/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/social.media.service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
@@ -323,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -339,6 +441,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5168">
           <caret line="379" selection-start-line="379" selection-end-line="379" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/ServiceDiscovery.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

@@ -9,7 +9,9 @@
     <name>parent-project</name>
 
     <modules>
-        <module>social-media-service</module>
+        <module>social.media.service</module>
+        <module>service.discovery</module>
+
 
     </modules>
 
