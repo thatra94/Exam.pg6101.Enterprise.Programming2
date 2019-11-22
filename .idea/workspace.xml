@@ -2,41 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c72bb887-2e60-41c1-b59f-e52f827a1c68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dao/UserRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dto/UserDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/entities/UserEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/db/migration/V1__initial.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/db/migration/V2__data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway.service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pg6101/service/discovery/ServiceDiscovery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service.discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/exam.pg6100.enterprise.programming2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exam.pg6101.enterprise.programming2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_0_8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/api/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/api/UserController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dao/userRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dto/UserConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dto/UserConverter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/dto/userDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6100/social/media/sevice/entities/UserEntity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.media.sevice/src/test/kotlin/com/exam/pg6100/social/media/sevice/ApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/test/kotlin/com/exam/pg6101/social/media/service/SocialMediaServiceTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service.discovery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/ServiceDiscovery.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.discovery/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.discovery/src/test/kotlin/com/exam/pgr6101/service/discovery/ServiceDiscoveryTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.service/mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/api/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/api/UserController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/social.media.service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social.media.service/src/test/kotlin/com/exam/pg6101/social/media/service/SocialMediaServiceTests.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/social-media-service/target/" />
     <ignored path="$PROJECT_DIR$/service.discovery/target/" />
     <ignored path="$PROJECT_DIR$/social.media.sevice/target/" />
     <ignored path="$PROJECT_DIR$/social.media.service/target/" />
+    <ignored path="$PROJECT_DIR$/gateway.service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,68 +160,83 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway.service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/ServiceDiscovery.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service.discovery/mvnw">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social.media.service/social.media.service.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gateway.service/src/main/kotlin/com/exam/pg6101/gateway/service/GatewayService.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="36" />
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+        <entry file="file://$PROJECT_DIR$/service.discovery/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
+            <state relative-caret-position="170">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+        <entry file="file://$PROJECT_DIR$/social.media.service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway.service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5168">
-              <caret line="379" selection-start-line="379" selection-end-line="379" />
+            <state relative-caret-position="204">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social.media.service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social.media.service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service.discovery/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service.discovery/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-731">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -139,6 +251,10 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>eureka</find>
+      <find>eur</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Files\Github\Exam.pg6100.enterprise.programming2\social-media-service</dir>
     </dirStrings>
@@ -156,11 +272,29 @@
         <option value="$PROJECT_DIR$/social-media-service/pom.xml" />
         <option value="$PROJECT_DIR$/social-media-service/src/main/kotlin/com/exam/pg6100/socialmediaservice/SocialMediaServiceApplication.kt" />
         <option value="$PROJECT_DIR$/social-media-service/src/main/kotlin/com/exam/pg6100/socialmediaservice/dao/UserRepository.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6100/social/media/service/SocialMediaService.kt" />
-        <option value="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt" />
         <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/Application.kt" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service.discovery/service.discovery.iml" />
         <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/ServiceDiscovery.kt" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/ServiceDiscovery.kt" />
+        <option value="$PROJECT_DIR$/service.discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pg6101/service/discovery/service/discovery/Application.kt" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pg6101/service/discovery/service/discovery/ServiceDiscovery.kt" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pg6101/service/discovery/ServiceDiscovery.kt" />
+        <option value="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/api/UserController.kt" />
+        <option value="$PROJECT_DIR$/social.media.service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt" />
+        <option value="$PROJECT_DIR$/social.media.service/social.media.service.iml" />
+        <option value="$PROJECT_DIR$/social.media.sevice/src/main/kotlin/com/exam/pg6101/social/media/sevice/dto/UserConverter.kt" />
+        <option value="$PROJECT_DIR$/social.media.service/pom.xml" />
+        <option value="$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/sevice/SocialMediaService.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway.service/src/main/kotlin/com/exam/pg6101/gateway/service/Application.kt" />
+        <option value="$PROJECT_DIR$/gateway.service/src/main/kotlin/com/exam/pg6101/gateway/service/GatewayService.kt" />
+        <option value="$PROJECT_DIR$/social.media.service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateway.service/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -183,6 +317,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,18 +328,76 @@
             <path>
               <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
-              <item name="service.discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway.service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
               <item name="social.media.service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="social.media.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="social.media.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam.pg6101.enterprise.programming2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam.pg6101.enterprise.programming2" type="462c0819:PsiDirectoryNode" />
+              <item name="social.media.service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -218,7 +411,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/social.media.sevice/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -230,6 +423,13 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.exam.pg6100.socialmediaservice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Files\Github\Exam.pg6101.enterprise.programming2\social.media.sevice\src\main\resources" />
+      <recent name="C:\Files\Github\Exam.pg6101.enterprise.programming2\social.media.sevice\src\main\kotlin\com\exam\pg6101\social\media\sevice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Files\Github\Exam.pg6101.enterprise.programming2\service.discovery\src\main\kotlin\com\exam\pg6101\service\discovery\service\discovery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,10 +444,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceDiscovery">
+  <component name="RunManager" selected="Spring Boot.GatewayService">
+    <configuration name="GatewayService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway.service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.pg6101.gateway.service.GatewayService" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceDiscovery" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service.discovery" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.pgr6101.service.discovery.service.discovery.ServiceDiscovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.pg6101.service.discovery.ServiceDiscovery" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,25 +469,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialMediaServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="social-media-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="exam.pg6100.socialmediaservice.SocialMediaServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SocialMediaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="social-media-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.pg6100.socialmediaservice.SocialMediaServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.ServiceDiscovery" />
       <item itemvalue="Spring Boot.SocialMediaService" />
-      <item itemvalue="Spring Boot.SocialMediaServiceApplication" />
-      <item itemvalue="Spring Boot.SocialMediaServiceApplication (1)" />
+      <item itemvalue="Spring Boot.GatewayService" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -298,17 +491,36 @@
       <workItem from="1574256801986" duration="84000" />
       <workItem from="1574270583096" duration="205000" />
       <workItem from="1574347009897" duration="1767000" />
-      <workItem from="1574349357653" duration="612000" />
+      <workItem from="1574349357653" duration="8505000" />
+      <workItem from="1574358752835" duration="3275000" />
+      <workItem from="1574362055846" duration="280000" />
+      <workItem from="1574362345137" duration="260000" />
+      <workItem from="1574362616477" duration="127000" />
+      <workItem from="1574362775550" duration="367000" />
+      <workItem from="1574363157454" duration="4549000" />
+      <workItem from="1574368604139" duration="733000" />
+      <workItem from="1574369361438" duration="546000" />
+      <workItem from="1574369921850" duration="10121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35024000" />
+    <option name="totallyTimeSpent" value="63175000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27766323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,13 +530,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977462" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32977462" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32977462" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977462" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49965635" weight="0.32977462" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003436" side_tool="true" weight="0.32977462" />
@@ -347,12 +559,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/exam.pg6100.enterprise.programming2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -384,9 +590,6 @@
     <entry file="file://$PROJECT_DIR$/social-media-service/mvnw.cmd" />
     <entry file="file://$PROJECT_DIR$/social-media-service/mvnw" />
     <entry file="file://$PROJECT_DIR$/social-media-service/src/main/resources/db/migration/V1__ddl.sql" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.2.1.RELEASE/spring-orm-5.2.1.RELEASE.jar!/org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -400,35 +603,8 @@
     <entry file="file://$PROJECT_DIR$/social-media-service/src/main/kotlin/com/exam/pg6100/socialmediaservice/dao/UserRepository.kt" />
     <entry file="file://$PROJECT_DIR$/social-media-service/pom.xml" />
     <entry file="file://$PROJECT_DIR$/social-media-service/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service.discovery/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social.media.service/social.media.service.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,10 +620,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pgr6101/service/discovery/service/discovery/ServiceDiscovery.kt">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="478" selection-start-line="478" selection-end-line="478" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.discovery/src/test/kotlin/com/exam/pgr6101/service/discovery/ServiceDiscoveryTests.kt" />
+    <entry file="file://$PROJECT_DIR$/service.discovery/service.discovery.iml" />
+    <entry file="file://$PROJECT_DIR$/social.media.service/social.media.service.iml" />
+    <entry file="file://$PROJECT_DIR$/service.discovery/src/main/kotlin/com/exam/pg6101/service/discovery/ServiceDiscovery.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#43#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/social.media.sevice.iml" />
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/resources/db/migration/V2__data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/sevice/Application.kt" />
+    <entry file="file://$PROJECT_DIR$/social.media.service22/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" selection-start-line="60" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/Application.kt" />
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/api/UserController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#50#749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dto/UserDto.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dao/UserRepository.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/dto/UserConverter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/kotlin/com/exam/pg6101/social/media/service/SocialMediaService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="e#46#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway.service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.discovery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.discovery/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.discovery/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.media.service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway.service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway.service/src/main/kotlin/com/exam/pg6101/gateway/service/GatewayService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -502,11 +818,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>social-media-service</last-edited>
+          <last-edited>service.discovery</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

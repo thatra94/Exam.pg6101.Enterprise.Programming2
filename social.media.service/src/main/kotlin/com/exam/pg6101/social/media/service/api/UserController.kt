@@ -9,6 +9,7 @@ import io.swagger.annotations.ApiOperation
 import io.swagger.annotations.ApiParam
 import io.swagger.annotations.ApiResponse
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient
 import org.springframework.http.MediaType
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
@@ -16,9 +17,7 @@ import javax.validation.ConstraintViolationException
 
 const val ID_PARAM = "The numeric id of the user"
 
-
 @Api(value = "/news", description = "Handling of creating and retrieving news")
-
 @RestController
 @RequestMapping("/users")
 class UserController {

@@ -6,23 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="social-media-service" />
-        <module name="service.discovery" />
+        <module name="social.media.sevice" />
         <module name="social.media.service" />
+        <module name="service.discovery" />
+        <module name="gateway.service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="exam.pg6100.enterprise.programming2" target="1.5" />
+      <module name="exam.pg6101.enterprise.programming2" target="1.5" />
+      <module name="gateway.service" target="1.8" />
       <module name="service.discovery" target="1.8" />
       <module name="social-media-service" target="1.8" />
       <module name="social.media.service" target="1.8" />
+      <module name="social.media.sevice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway.service" options="-parameters" />
       <module name="service.discovery" options="-parameters" />
       <module name="social-media-service" options="-parameters" />
       <module name="social.media.service" options="-parameters" />
+      <module name="social.media.sevice" options="-parameters" />
     </option>
   </component>
 </project>

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/exam.pg6100.enterprise.programming2.iml" filepath="$PROJECT_DIR$/.idea/exam.pg6100.enterprise.programming2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exam.pg6101.enterprise.programming2.iml" filepath="$PROJECT_DIR$/.idea/exam.pg6101.enterprise.programming2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway.service/gateway.service.iml" filepath="$PROJECT_DIR$/gateway.service/gateway.service.iml" />
       <module fileurl="file://$PROJECT_DIR$/service.discovery/service.discovery.iml" filepath="$PROJECT_DIR$/service.discovery/service.discovery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/social-media-service/social-media-service.iml" filepath="$PROJECT_DIR$/social-media-service/social-media-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/social.media.service/social.media.service.iml" filepath="$PROJECT_DIR$/social.media.service/social.media.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/social.media.service/social.media.sevice.iml" filepath="$PROJECT_DIR$/social.media.service/social.media.sevice.iml" />
     </modules>
   </component>
 </project>
